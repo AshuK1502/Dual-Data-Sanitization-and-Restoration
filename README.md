@@ -1,9 +1,18 @@
-```markdown
-```
 # Dual Data Sanitization and Restoration
 
 ## Description
 A Python research prototype that implements and compares single-key and dual-key data sanitization and restoration techniques using hybrid metaheuristic algorithms (ECDO / hybrid DSOA+EFO variants). The repository contains two Streamlit apps and an analysis notebook for experimenting with sanitization (adding/transformation keys), restoring data, and measuring restoration accuracy and MSE.
+
+## Live Demo
+
+You can try the deployed Streamlit apps directly:
+
+- **Dashboard App** – Interactive dashboard for dual-key sanitization and restoration using ECDO:  
+  [Launch Dashboard App](https://dual-data-sanitization-and-restoration-dashboard.streamlit.app/)
+  
+- **Comparison App** – Compare single-key vs dual-key data sanitization and restoration:  
+  [Launch Comparison App](https://dual-data-sanitization-and-restoration-comparision.streamlit.app/)
+
 
 ## Features
 - Single-key sanitization & restoration (additive key).
